@@ -63,11 +63,6 @@ The following machine learning algorithms were implemented:
 
 From the above comparison, we can observe that K Nearest neighbors gets the highest accuracy of 78.57%
 
-**Classification Report Analysis**:
-- Class 0 has a precision of 0.81, recall of 0.87, and F1-score of 0.84. This means that the model did a good job of classifying class 0 instances.
-- Class 1 has a lower precision of 0.72, recall of 0.63, and F1-score of 0.67. This means that the model did not perform as well on class 1 instances.
-- The accuracy is 0.77, which means that the model was correct 77% of the time.
-
 ## Alternate Preprocessing
 
 To address class imbalance, we balanced the dataset by oversampling the dataset.
@@ -81,11 +76,6 @@ To address class imbalance, we balanced the dataset by oversampling the dataset.
 - Random Forest: 78.5%
 
 From the above comparison, we can observe that Random Forest gets the highest accuracy of 78.5%
-
-**Classification Report for Balanced Model**:
-- Class 0 has a precision of 0.82, recall of 0.68, and F1-score of 0.74. This means that the model did a good job of identifying a high proportion of class 0 instances that it predicted, but it missed a significant number of actual class 0 cases.
-- Class 1 has a lower precision of 0.73, recall of 0.85, and F1-score of 0.78. This means that the model did a good job of recalling most of the class 1 cases but it also predicted a high number of false positives.
-- The accuracy is 0.77, which means that the model was correct 77% of the time.
 
 ## Conclusion
 
